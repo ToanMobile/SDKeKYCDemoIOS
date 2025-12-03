@@ -1,0 +1,5 @@
+module CNativeConfig {
+    header "native_config.h"
+    export *
+}
+
