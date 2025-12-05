@@ -1,0 +1,206 @@
+/* 
+   Localizable.strings (Vietnamese)
+   SDKUI
+   Ported from Android strings.xml
+*/
+
+/* ========================================== */
+/* APP INFORMATION & BASIC UI */
+/* ========================================== */
+"app_name" = "Ekyc";
+"empty_string" = "";
+"not_available" = "--";
+
+/* ========================================== */
+/* NAVIGATION & ACTIONS */
+/* ========================================== */
+"next" = "Tiếp theo";
+"previous" = "Quay về";
+"back" = "Back";
+"scan_start" = "BẮT ĐẦU";
+"scan_nfc_cancel" = "HỦY";
+"cancel" = "HỦY";
+"ready_scan" = "Sẵn sàng quét";
+"capture" = "Chụp";
+"skip_button" = "Bỏ qua";
+
+/* ========================================== */
+/* CAMERA & PERMISSIONS */
+/* ========================================== */
+"camera_permission_required" = "Cần quyền Camera";
+"err_camera_is_not_ready" = "Camera chưa sẵn sàng, vui lòng thử lại";
+
+/* ========================================== */
+/* OCR (OPTICAL CHARACTER RECOGNITION) */
+/* ========================================== */
+"ocr_title" = "Xác thực chứng minh thư, thẻ căn cước";
+"capture_front_title" = "CHỤP MẶT TRƯỚC";
+"capture_back_title" = "CHỤP MẶT SAU";
+"ocr_please" = "Xin vui lòng đặt giấy tờ nằm vừa khung hình chữ nhật, chụp đủ ánh sáng và rõ nét";
+"ocr_capture_button" = "Chụp ảnh";
+"ocr_processing" = "Đang xử lý...";
+"ocr_config_invalid" = "OCR config không hợp lệ";
+"ocr_success_message" = "Thành công: giấy tờ hợp lệ! (%@)";
+"err_ocr_national_id_blur" = "Hình ảnh giấy tờ không đạt chất lượng. Quý khách vui lòng chụp lại";
+"error_ocr_data_missing" = "Không tìm thấy dữ liệu OCR. Vui lòng thử lại.";
+
+/* ========================================== */
+/* QR CODE SCANNING */
+/* ========================================== */
+"qrcode_title" = "Quét QR Code";
+"capture_qrcode" = "QUÉT MÃ QR";
+"qrcode_instruction_short" = "Đặt mã QR CCCD vào trong khung";
+"qrcode_please" = "Vui lòng đưa mã QR Code vào trung tâm của camera";
+"qrcode_success" = "Đã quét thành công";
+"qrcode_error" = "QRCode không trùng với CCCD";
+
+/* ========================================== */
+/* NFC (NEAR FIELD COMMUNICATION) */
+/* ========================================== */
+"nfc_title" = "Quét NFC";
+"scan_nfc" = "Vùng tiếp xúc tốt trên giấy tờ để kết nối NFC";
+"scan_nfc_des" = "Vui lòng xem kỹ hướng dẫn cách thao tác để đọc thông tin thẻ chip của Căn cước công dân qua kết nối gần NFC trên thiết bị của bạn!";
+"scan_bottom_des" = "Giữ yên CCCD của bạn trong lúc kết nối";
+"nfc_scanning_title" = "Đang quét…";
+"scanning_title" = "Đang quét…";
+"nfc_scanning_instruction" = "Giữ yên CCCD của bạn trong lúc kết nối";
+"nfc_success_title" = "Quét thành công";
+"nfc_success_message" = "Đã đọc thành công thông tin thẻ chip!";
+"nfc_error" = "Quét NFC thất bại";
+"nfc_parse_error" = "Phân tích dữ liệu bị lỗi";
+"nfc_scan_error" = "scan thất bại";
+"mrzField_empty" = "mrzField đang rỗng vui lòng kiểm tra lại";
+"nfc_not_supported" = "Thiết bị của bạn không hỗ trợ tính năng NFC, vui lòng thử trên thiết bị khác.";
+"nfc_not_enable" = "Thiết bị của bạn đang tắt tính năng NFC, vui lòng mở NFC lên lại.";
+"nfc_enable_button" = "Bật NFC";
+"nfc_config_error" = "Không tạo được cấu hình NFC, vui lòng kiểm tra lại";
+"nfc_request_present_passport" = "Vui lòng đưa CCCD gắn chip gần điện thoại";
+"nfc_tag_not_valid" = "Thẻ không hợp lệ";
+"nfc_more_than_one_tag" = "Phát hiện nhiều hơn 1 thẻ. Vui lòng chỉ đưa 1 thẻ";
+"nfc_connection_error" = "Lỗi kết nối. Vui lòng thử lại";
+"nfc_invalid_mrz_key" = "Thông tin MRZ trên CCCD không hợp lệ";
+"nfc_user_canceled" = "Đã hủy quét NFC";
+"nfc_no_connected_tag" = "Không phát hiện thẻ. Vui lòng đưa CCCD gần điện thoại";
+"nfc_read_failed" = "Đọc CCCD không thành công. Vui lòng thử lại";
+"nfc_successful_read" = "Đọc chip CCCD thành công";
+
+/* ========================================== */
+/* LIVENESS DETECTION (FACE RECOGNITION) */
+/* ========================================== */
+"liveness_title" = "Chụp hình";
+"liveness_hold_and_capture" = "Giữ nguyên và bắt đầu chụp";
+"liveness_capture" = "Chụp chân dung";
+"liveness_check" = "Đảm bảo khuôn mặt vừa với khung hình";
+"liveness_config_missing" = "Configuration is missing";
+"liveness_look_at" = "Vui lòng nhìn: %@";
+"liveness_sending_data" = "Đang gửi dữ liệu xác thực...";
+"liveness_success" = "Hoàn thành xác thực liveness!";
+"liveness_success_message" = "Thành công: Xác thực khuôn mặt thành công!";
+"liveness_camera_permission" = "Cần quyền Camera để tiếp tục";
+
+/* ========================================== */
+/* ERROR MESSAGES & DIALOGS */
+/* ========================================== */
+"err_failed" = "Thất bại";
+"system_error" = "Lỗi: %@";
+"scan_error_title" = "scan thất bại";
+"result_empty" = "Không có dữ liệu";
+"error_count" = "Thực hiện quá số lần cho phép";
+"title_count_error" = "Lần(%d): %@";
+"dialog_title" = "Thông báo";
+"dialog_ok" = "Đồng ý";
+
+/* SDK Errors */
+"error_flow_empty" = "Flow không được trùng hoặc rỗng!";
+"error_sdk_start" = "Lỗi mở SDK";
+"error_unknown" = "Lỗi không xác định";
+"error_ocr" = "Lỗi OCR";
+"error_face" = "Lỗi Face compare";
+"error_liveness" = "Lỗi Liveness";
+
+/* OCR Errors */
+"error_ocr_unrecognized" = "Không nhận diện được CCCD/CMND";
+"error_ocr_wrong_side" = "Chụp sai mặt CMND/CCCD";
+"error_ocr_cannot_get_id_number" = "Không lấy được số định danh";
+"error_ocr_cannot_get_name" = "Không lấy được Họ tên";
+"error_ocr_cannot_get_birth_year" = "Không lấy được năm sinh";
+"error_ocr_cannot_get_expiry_date" = "Không lấy được ngày hết hạn";
+"error_ocr_cannot_get_issue_date" = "Không lấy được ngày phát hành";
+"error_ocr_cannot_get_residence" = "Không lấy được nơi cư trú";
+"error_ocr_cannot_get_hometown" = "Không lấy được Quê quán/nơi sinh";
+"error_ocr_cannot_get_gender" = "Không lấy được giới tính";
+"error_ocr_missing_part" = "Một phần của CCCD/CMND không có";
+"error_ocr_not_original" = "Vui lòng chỉ chụp CCCD/CMND gốc";
+"error_ocr_from_other_device" = "CCCD/CMND chụp từ thiết bị khác";
+"error_ocr_cannot_recognize_portrait" = "Không nhận diện được ảnh chân dung trên CCCD/CMND";
+"error_ocr_cut_corner" = "CCCD/CMND đã bị cắt góc";
+"error_ocr_blurry" = "CCCD/CMND bị mờ";
+"error_ocr_glare" = "CCCD/CMND bị chói sáng";
+"error_ocr_invalid" = "CCCD/CMND không hợp lệ";
+"error_ocr_fake_mrz" = "MRZ giả mạo";
+"error_ocr_photocopy" = "CMND/CCCD ảnh photo";
+"error_ocr_font_back_not_match" = "CCCD không trùng khớp";
+"error_ocr_qrcode_id_mismatch" = "Số CCCD quét được không trùng với mã QR";
+
+/* Face/Liveness Errors */
+"error_liveness_fail" = "Hình chụp không đúng";
+"error_multiple_faces" = "Nhiều khuôn mặt trong ảnh selfie";
+"error_eyes_closed" = "Mắt nhắm trong ảnh selfie";
+"error_mask_detected" = "Đeo mặt nạ trong ảnh selfie";
+"error_face_blurred" = "Khuôn mặt bị mờ";
+"error_face_occluded" = "Khuôn mặt bị che khuất trong ảnh selfie";
+"error_eyewear_detected" = "Phát hiện đeo kính trong ảnh selfie";
+"error_head_turned" = "Đầu nghiêng trong ảnh selfie";
+
+/* NFC Errors */
+"error_scan_nfc" = "Lỗi NFC";
+"error_scan_nfc_check" = "Lỗi check NFC";
+"error_scan_nfc_enable" = "Vui lòng bật NFC để tiếp tục";
+"error_c06" = "Lỗi check C06";
+"error_nfc_mutual_auth_failed" = "Dữ liệu NFC không hợp lệ";
+"error_nfc_connection_lost" = "Mất kết nối NFC";
+"error_nfc_invalid_mrz_key" = "Khóa MRZ không hợp lệ";
+"error_nfc_io" = "Lỗi đọc dữ liệu NFC";
+"error_nfc_unknown" = "Lỗi NFC không xác định";
+"error_nfc_user_cancel" = "User hủy";
+"error_nfc_chip_auth_failed" = "ChipAuthenticationFailed";
+
+/* QRCode & Others */
+"error_qrcode" = "Lỗi quest QRCode";
+"error_fetch_history" = "Lỗi không lấy được detail";
+
+/* ========================================== */
+/* RESULT SCREEN */
+/* ========================================== */
+"result_title" = "Kết quả";
+"result_fetch_image_failed" = "Lấy hình ảnh thất bại";
+"nfc_info_title" = "Thông tin NFC";
+"ocr_info_title" = "Thông tin OCR";
+"label_full_name" = "Họ và tên";
+"label_id_number" = "Số CCCD";
+"label_old_id_number" = "Số CMND cũ";
+"label_gender" = "Giới tính";
+"label_dob" = "Ngày sinh";
+"label_hometown" = "Quê quán";
+"label_nationality" = "Quốc tịch";
+"label_issue_date" = "Ngày cấp";
+"label_expiry_date" = "Có giá trị đến";
+"label_address" = "Địa chỉ thường trú";
+"label_issue_place" = "Nơi cấp";
+"label_ethnic" = "Dân tộc";
+"label_father_name" = "Tên cha";
+"label_mother_name" = "Tên mẹ";
+"label_character" = "Đặc điểm nhận dạng";
+
+/* Image Titles */
+"image_id_front" = "CCCD Mặt trước";
+"image_id_back" = "CCCD Mặt sau";
+"image_selfie" = "Hình ảnh thực tế";
+"image_id_photo" = "Hình ảnh CCCD";
+
+/* ========================================== */
+/* SYSTEM MESSAGES */
+/* ========================================== */
+"login_des" = "Vui lòng sử dụng tài khoản MIS để đăng nhập";
+
+

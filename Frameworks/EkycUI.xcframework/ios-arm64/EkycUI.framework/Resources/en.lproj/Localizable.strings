@@ -1,0 +1,206 @@
+/* 
+   Localizable.strings (English)
+   SDKUI
+   Ported from Android strings.xml (values-en)
+*/
+
+/* ========================================== */
+/* APP INFORMATION & BASIC UI */
+/* ========================================== */
+"app_name" = "Ekyc";
+"empty_string" = "";
+"not_available" = "--";
+
+/* ========================================== */
+/* NAVIGATION & ACTIONS */
+/* ========================================== */
+"next" = "Next";
+"previous" = "Back";
+"back" = "Back";
+"scan_start" = "START";
+"scan_nfc_cancel" = "CANCEL";
+"cancel" = "CANCEL";
+"ready_scan" = "Ready to scan";
+"capture" = "Capture";
+"skip_button" = "Skip";
+
+/* ========================================== */
+/* CAMERA & PERMISSIONS */
+/* ========================================== */
+"camera_permission_required" = "Camera permission required";
+"err_camera_is_not_ready" = "Camera is not ready, please try again";
+
+/* ========================================== */
+/* OCR (OPTICAL CHARACTER RECOGNITION) */
+/* ========================================== */
+"ocr_title" = "Verify ID card, citizen card";
+"capture_front_title" = "CAPTURE FRONT";
+"capture_back_title" = "CAPTURE BACK";
+"ocr_please" = "Please place the document within the rectangular frame, ensure good lighting and clear image";
+"ocr_capture_button" = "Capture";
+"ocr_processing" = "Processing...";
+"ocr_config_invalid" = "Invalid OCR config";
+"ocr_success_message" = "Success: Valid document! (%@)";
+"err_ocr_national_id_blur" = "Document image quality is not sufficient. Please capture again";
+"error_ocr_data_missing" = "OCR data not found. Please try again.";
+
+/* ========================================== */
+/* QR CODE SCANNING */
+/* ========================================== */
+"qrcode_title" = "Scan QR Code";
+"capture_qrcode" = "SCAN QR CODE";
+"qrcode_instruction_short" = "Place the ID card QR code within the frame";
+"qrcode_please" = "Please position the QR code in the center of the camera";
+"qrcode_success" = "Scanned successfully";
+"qrcode_error" = "QR code does not match the ID card";
+
+/* ========================================== */
+/* NFC (NEAR FIELD COMMUNICATION) */
+/* ========================================== */
+"nfc_title" = "NFC Scan";
+"scan_nfc" = "Place the contact area of the document on the device to connect NFC";
+"scan_nfc_des" = "Please carefully follow the instructions to read the chip information of your Citizen ID card through NFC connection on your device!";
+"scan_bottom_des" = "Keep your ID card still during connection";
+"nfc_scanning_title" = "Scanning…";
+"scanning_title" = "Scanning…";
+"nfc_scanning_instruction" = "Keep your ID card still during connection";
+"nfc_success_title" = "Scan successful";
+"nfc_success_message" = "Successfully read chip information!";
+"nfc_error" = "NFC scan failed";
+"nfc_parse_error" = "Data parsing error";
+"nfc_scan_error" = "Scan failed";
+"mrzField_empty" = "mrzField is empty, please check again";
+"nfc_not_supported" = "Your device does not support NFC feature, please try on another device.";
+"nfc_not_enable" = "Your device has NFC turned off. Please enable NFC again.";
+"nfc_enable_button" = "Enable NFC";
+"nfc_config_error" = "Failed to create NFC configuration, please check again";
+"nfc_request_present_passport" = "Please bring your chip ID card near the phone";
+"nfc_tag_not_valid" = "Invalid card";
+"nfc_more_than_one_tag" = "More than 1 card detected. Please bring only 1 card";
+"nfc_connection_error" = "Connection error. Please try again";
+"nfc_invalid_mrz_key" = "MRZ information on ID card is invalid";
+"nfc_user_canceled" = "NFC scan canceled";
+"nfc_no_connected_tag" = "No card detected. Please bring ID card near the phone";
+"nfc_read_failed" = "Failed to read ID card. Please try again";
+"nfc_successful_read" = "Successfully read chip";
+
+/* ========================================== */
+/* LIVENESS DETECTION (FACE RECOGNITION) */
+/* ========================================== */
+"liveness_title" = "Take Photo";
+"liveness_hold_and_capture" = "Hold still and start capturing";
+"liveness_capture" = "Capture portrait";
+"liveness_check" = "Ensure your face fits within the frame";
+"liveness_config_missing" = "Configuration is missing";
+"liveness_look_at" = "Please look: %@";
+"liveness_sending_data" = "Sending verification data...";
+"liveness_success" = "Liveness verification completed!";
+"liveness_success_message" = "Success: Face verification successful!";
+"liveness_camera_permission" = "Camera permission is required to continue";
+
+/* ========================================== */
+/* ERROR MESSAGES & DIALOGS */
+/* ========================================== */
+"err_failed" = "Failed";
+"system_error" = "Error: %@";
+"scan_error_title" = "Scan failed";
+"result_empty" = "No data";
+"error_count" = "Exceeded maximum allowed attempts";
+"title_count_error" = "Attempt(%d): %@";
+"dialog_title" = "Notification";
+"dialog_ok" = "OK";
+
+/* SDK Errors */
+"error_flow_empty" = "Flow must not be duplicate or empty!";
+"error_sdk_start" = "SDK opening error";
+"error_unknown" = "Unknown error";
+"error_ocr" = "OCR error";
+"error_face" = "Face compare error";
+"error_liveness" = "Liveness error";
+
+/* OCR Errors */
+"error_ocr_unrecognized" = "Unrecognized ID card";
+"error_ocr_wrong_side" = "Wrong ID card side";
+"error_ocr_cannot_get_id_number" = "Cannot get ID number";
+"error_ocr_cannot_get_name" = "Cannot get name";
+"error_ocr_cannot_get_birth_year" = "Cannot get birth year";
+"error_ocr_cannot_get_expiry_date" = "Cannot get expiry date";
+"error_ocr_cannot_get_issue_date" = "Cannot get issue date";
+"error_ocr_cannot_get_residence" = "Cannot get residence";
+"error_ocr_cannot_get_hometown" = "Cannot get hometown/birthplace";
+"error_ocr_cannot_get_gender" = "Cannot get gender";
+"error_ocr_missing_part" = "Part of ID card missing";
+"error_ocr_not_original" = "Please only scan original ID card";
+"error_ocr_from_other_device" = "ID card captured from another device";
+"error_ocr_cannot_recognize_portrait" = "Cannot recognize portrait on ID card";
+"error_ocr_cut_corner" = "ID card corner cut";
+"error_ocr_blurry" = "ID card blurry";
+"error_ocr_glare" = "ID card glare";
+"error_ocr_invalid" = "Invalid ID card";
+"error_ocr_fake_mrz" = "Fake MRZ";
+"error_ocr_photocopy" = "Photocopy ID card";
+"error_ocr_font_back_not_match" = "ID card does not match";
+"error_ocr_qrcode_id_mismatch" = "ID number from OCR does not match QR code";
+
+/* Face/Liveness Errors */
+"error_liveness_fail" = "Photo taken incorrectly";
+"error_multiple_faces" = "Multiple faces in selfie";
+"error_eyes_closed" = "Eyes closed in selfie";
+"error_mask_detected" = "Mask detected in selfie";
+"error_face_blurred" = "Face blurry";
+"error_face_occluded" = "Face occluded in selfie";
+"error_eyewear_detected" = "Eyewear detected in selfie";
+"error_head_turned" = "Head turned in selfie";
+
+/* NFC Errors */
+"error_scan_nfc" = "NFC error";
+"error_scan_nfc_check" = "NFC check error";
+"error_scan_nfc_enable" = "Please enable NFC to continue";
+"error_c06" = "C06 check error";
+"error_nfc_mutual_auth_failed" = "Invalid NFC data";
+"error_nfc_connection_lost" = "NFC connection lost";
+"error_nfc_invalid_mrz_key" = "Invalid MRZ key";
+"error_nfc_io" = "NFC data read error";
+"error_nfc_unknown" = "Unknown NFC error";
+"error_nfc_user_cancel" = "User canceled";
+"error_nfc_chip_auth_failed" = "ChipAuthenticationFailed";
+
+/* QRCode & Others */
+"error_qrcode" = "QRCode error";
+"error_fetch_history" = "Failed to fetch details";
+
+/* ========================================== */
+/* RESULT SCREEN */
+/* ========================================== */
+"result_title" = "Result";
+"result_fetch_image_failed" = "Failed to fetch images";
+"nfc_info_title" = "NFC Info";
+"ocr_info_title" = "OCR Info";
+"label_full_name" = "Full name";
+"label_id_number" = "ID Number";
+"label_old_id_number" = "Old ID Number";
+"label_gender" = "Gender";
+"label_dob" = "Date of birth";
+"label_hometown" = "Hometown";
+"label_nationality" = "Nationality";
+"label_issue_date" = "Issue date";
+"label_expiry_date" = "Expiry date";
+"label_address" = "Address";
+"label_issue_place" = "Issue place";
+"label_ethnic" = "Ethnic";
+"label_father_name" = "Father name";
+"label_mother_name" = "Mother name";
+"label_character" = "Identifying features";
+
+/* Image Titles */
+"image_id_front" = "ID Card Front";
+"image_id_back" = "ID Card Back";
+"image_selfie" = "Live Photo";
+"image_id_photo" = "ID Card Photo";
+
+/* ========================================== */
+/* SYSTEM MESSAGES */
+/* ========================================== */
+"login_des" = "Please use your MIS account to log in";
+
+
