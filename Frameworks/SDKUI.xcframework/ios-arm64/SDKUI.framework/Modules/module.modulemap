@@ -1,0 +1,4 @@
+framework module SDKUI {
+    header "SDKUI-Swift.h"
+    export *
+}
