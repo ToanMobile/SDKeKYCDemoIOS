@@ -1,0 +1,4 @@
+framework module EkycUI {
+    header "EkycUI-Swift.h"
+    export *
+}

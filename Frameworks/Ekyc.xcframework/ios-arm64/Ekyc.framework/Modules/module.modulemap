@@ -1,0 +1,4 @@
+framework module Ekyc {
+    header "Ekyc-Swift.h"
+    export *
+}
