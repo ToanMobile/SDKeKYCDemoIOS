@@ -1,0 +1,4 @@
+framework module SDKCore {
+    header "SDKCore-Swift.h"
+    export *
+}

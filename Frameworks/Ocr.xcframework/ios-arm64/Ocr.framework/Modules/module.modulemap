@@ -1,0 +1,4 @@
+framework module Ocr {
+    header "Ocr-Swift.h"
+    export *
+}
