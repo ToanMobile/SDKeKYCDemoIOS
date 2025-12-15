@@ -1,0 +1,4 @@
+framework module Nfc {
+    header "Nfc-Swift.h"
+    export *
+}

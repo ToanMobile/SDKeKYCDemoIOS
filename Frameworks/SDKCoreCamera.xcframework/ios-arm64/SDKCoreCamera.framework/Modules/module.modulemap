@@ -1,0 +1,4 @@
+framework module SDKCoreCamera {
+    header "SDKCoreCamera-Swift.h"
+    export *
+}
